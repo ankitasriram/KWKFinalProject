@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ankitasriram.github.io/KWKFinalProject",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,5 +19,7 @@
   "dependencies": {
     "highcharts": "^12.3.0",
     "papaparse": "^5.5.3"
-  }
+  },
+    "homepage": "https://ankitasriram.github.io/KWKFinalProject"
+
 }
