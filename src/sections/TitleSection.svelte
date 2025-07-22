@@ -1,7 +1,7 @@
 <script>
     const title = "LOCKED \n OUT";
     const subtitle =
-        "Examining Barriers to Black \n Homeownership in the Bay Area, California, and the US";
+        "Examining Barriers to Black \n Homeownership across the Bay Area, \n California, and the US";
 </script>
 
 <div class="screen">

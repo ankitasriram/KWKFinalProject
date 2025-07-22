@@ -3,8 +3,8 @@
     import Scroller from "../lib/Scroller.svelte";
     import ObservedArticleText from "../lib/ObservedArticleText.svelte";
 
-    const map3 = "public/SFBlackPop.png";
-    const map4 = "public/SFHomeowner.png";
+    const map3 = "/SFBlackPop.png";
+    const map4 = "/SFHomeowner.png";
 
     let currentMap = $state("");
 
