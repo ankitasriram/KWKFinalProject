@@ -69,7 +69,7 @@
 <div class="scrolly-wrapper">
     <Scroller layout="right" backgroundColor="#024364">
         {#snippet sticky()}
-            <h2>Application Denials by Race (2024)</h2>
+            <h2>Loan Application Denials by Race (2024)</h2>
             <BarriersBarChart
                 title="Application Denials by Race (2024)"
                 categories={raceCategories}
