@@ -1,0 +1,49 @@
+derived_race_or_ethnicity,metric_type,metric,value_type,value,activity_year
+Black or African American,action_taken_text,Application approved but not accepted,number_of_actions_taken_per_100_people,0.07,2024
+White,action_taken_text,Application approved but not accepted,number_of_actions_taken_per_100_people,0.09,2024
+Asian,action_taken_text,Application approved but not accepted,number_of_actions_taken_per_100_people,0.11,2024
+Hispanic or Latino,action_taken_text,Application approved but not accepted,number_of_actions_taken_per_100_people,0.07,2024
+White,action_taken_text,Application denied,number_of_actions_taken_per_100_people,0.51,2024
+Asian,action_taken_text,Application denied,number_of_actions_taken_per_100_people,0.56,2024
+Black or African American,action_taken_text,Application denied,number_of_actions_taken_per_100_people,0.65,2024
+Hispanic or Latino,action_taken_text,Application denied,number_of_actions_taken_per_100_people,0.49,2024
+Hispanic or Latino,action_taken_text,Application withdrawn by applicant,number_of_actions_taken_per_100_people,0.29,2024
+White,action_taken_text,Application withdrawn by applicant,number_of_actions_taken_per_100_people,0.39,2024
+Asian,action_taken_text,Application withdrawn by applicant,number_of_actions_taken_per_100_people,0.56,2024
+Black or African American,action_taken_text,Application withdrawn by applicant,number_of_actions_taken_per_100_people,0.36,2024
+Black or African American,action_taken_text,File closed for incompleteness,number_of_actions_taken_per_100_people,0.16,2024
+Hispanic or Latino,action_taken_text,File closed for incompleteness,number_of_actions_taken_per_100_people,0.13,2024
+White,action_taken_text,File closed for incompleteness,number_of_actions_taken_per_100_people,0.14,2024
+Asian,action_taken_text,File closed for incompleteness,number_of_actions_taken_per_100_people,0.19,2024
+Black or African American,action_taken_text,Loan originated,number_of_actions_taken_per_100_people,1.08,2024
+Hispanic or Latino,action_taken_text,Loan originated,number_of_actions_taken_per_100_people,1.06,2024
+White,action_taken_text,Loan originated,number_of_actions_taken_per_100_people,1.86,2024
+Asian,action_taken_text,Loan originated,number_of_actions_taken_per_100_people,2.0,2024
+Black or African American,action_taken_text,Preapproval request approved but not accepted,number_of_actions_taken_per_100_people,0.01,2024
+White,action_taken_text,Preapproval request approved but not accepted,number_of_actions_taken_per_100_people,0.01,2024
+Hispanic or Latino,action_taken_text,Preapproval request approved but not accepted,number_of_actions_taken_per_100_people,0.01,2024
+Asian,action_taken_text,Preapproval request approved but not accepted,number_of_actions_taken_per_100_people,0.01,2024
+White,action_taken_text,Preapproval request denied,number_of_actions_taken_per_100_people,0.0,2024
+Asian,action_taken_text,Preapproval request denied,number_of_actions_taken_per_100_people,0.0,2024
+Black or African American,action_taken_text,Preapproval request denied,number_of_actions_taken_per_100_people,0.0,2024
+Hispanic or Latino,action_taken_text,Preapproval request denied,number_of_actions_taken_per_100_people,0.0,2024
+Hispanic or Latino,action_taken_text,Purchased loan,number_of_actions_taken_per_100_people,0.02,2024
+White,action_taken_text,Purchased loan,number_of_actions_taken_per_100_people,0.03,2024
+Asian,action_taken_text,Purchased loan,number_of_actions_taken_per_100_people,0.04,2024
+Black or African American,action_taken_text,Purchased loan,number_of_actions_taken_per_100_people,0.03,2024
+White,derived_loan_product_type_text,Conventional,number_of_loans_per_100_people,2.46,2024
+Asian,derived_loan_product_type_text,Conventional,number_of_loans_per_100_people,3.17,2024
+Black or African American,derived_loan_product_type_text,Conventional,number_of_loans_per_100_people,1.49,2024
+Hispanic or Latino,derived_loan_product_type_text,Conventional,number_of_loans_per_100_people,1.52,2024
+Black or African American,derived_loan_product_type_text,Farm Service Agency/Rural Housing Service,number_of_loans_per_100_people,0.01,2024
+Asian,derived_loan_product_type_text,Farm Service Agency/Rural Housing Service,number_of_loans_per_100_people,0.0,2024
+Hispanic or Latino,derived_loan_product_type_text,Farm Service Agency/Rural Housing Service,number_of_loans_per_100_people,0.01,2024
+White,derived_loan_product_type_text,Farm Service Agency/Rural Housing Service,number_of_loans_per_100_people,0.02,2024
+Asian,derived_loan_product_type_text,Federal Housing Administration,number_of_loans_per_100_people,0.21,2024
+White,derived_loan_product_type_text,Federal Housing Administration,number_of_loans_per_100_people,0.34,2024
+Hispanic or Latino,derived_loan_product_type_text,Federal Housing Administration,number_of_loans_per_100_people,0.44,2024
+Black or African American,derived_loan_product_type_text,Federal Housing Administration,number_of_loans_per_100_people,0.57,2024
+Hispanic or Latino,derived_loan_product_type_text,Veterans Affairs,number_of_loans_per_100_people,0.12,2024
+Black or African American,derived_loan_product_type_text,Veterans Affairs,number_of_loans_per_100_people,0.29,2024
+Asian,derived_loan_product_type_text,Veterans Affairs,number_of_loans_per_100_people,0.09,2024
+White,derived_loan_product_type_text,Veterans Affairs,number_of_loans_per_100_people,0.22,2024

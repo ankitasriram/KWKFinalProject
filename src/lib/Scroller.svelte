@@ -1,10 +1,8 @@
 <script>
-    // `layout` can be either "right" or "left"
-    // `sticky` and `scrolly` are the snippets passed in (see one of the examples)
-    let { layout, sticky, scrolly } = $props(); 
+    let { layout, sticky, scrolly, backgroundColor = "#063244" } = $props();
 </script>
 
-<div class="wrapper {layout}">
+<div class="wrapper {layout}" style="background-color: {backgroundColor};">
     <div class="sticky">
         {@render sticky()}
     </div>
@@ -17,9 +15,8 @@
 <style>
     .wrapper {
         background-color: #f7f5eb;
-        padding: min(100vh, 30rem) 1rem;
-        border-style: solid;
-        border-color: #4096fa;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -49,12 +46,14 @@
 
     .sticky {
         position: sticky;
-        top: 50vh;
-        transform: translateY(-50%);
+        top: 2rem; /* instead of 20vh */
+        transform: none; /* remove the translateY */
+        padding-top: 1rem; /* optional: ensures h2 has some breathing room */
+        z-index: 10;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        z-index: 0;
     }
 
     .scrolly {
@@ -64,7 +63,7 @@
     @media (max-width: 768px) {
         .wrapper {
             flex-direction: column;
-            padding: 2rem 1rem;
+            padding: rem 1rem;
             width: 100vw;
         }
 
@@ -77,7 +76,7 @@
         }
 
         .sticky {
-            margin-bottom: 2rem;
+            margin: 2rem;
         }
     }
 </style>
