@@ -1,7 +1,7 @@
 <script>
     const title = "LOCKED \n OUT";
     const subtitle =
-        "Examining Barriers to Black \n Homeownership across the \n United States, California, \n and the Bay Area";
+        "Examining Barriers to Black \n Homeownership in the Bay Area and Beyond";
 </script>
 
 <div class="screen">
@@ -40,7 +40,7 @@
         left: 15rem;
         font-size: clamp(5rem, 13vw, 17rem);
         line-height: clamp(4.5rem, 11vw, 15rem);
-        color: #FFFEED;
+        color: #fffeed;
         margin: 0;
 
         text-shadow: 4px 4px 6px rgba(108, 138, 153, 0.8);
