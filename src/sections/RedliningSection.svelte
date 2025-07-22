@@ -46,7 +46,7 @@
                 <div class="sticky-image-container">
                     {#if currentMap === "map3"}
                         <img
-                            src={`${import.meta.env.BASE_URL}SFBlackPop.jpg`}
+                            src={`${import.meta.env.BASE_URL}SFBlackPop.png`}
                             alt="Map 3 - Black Population in San Francisco"
                             class="map-image"
                             in:fly={{ x: -200, duration: 800 }}
@@ -57,7 +57,7 @@
                         </p>
                     {:else if currentMap === "map4"}
                         <img
-                            src={`${import.meta.env.BASE_URL}SFHomeowner.jpg`}
+                            src={`${import.meta.env.BASE_URL}SFHomeowner.png`}
                             alt="Map 4 - Homeownership in San Francisco"
                             class="map-image"
                             in:fly={{ x: -200, duration: 800 }}
